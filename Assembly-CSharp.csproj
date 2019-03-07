@@ -60,8 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\collisionScript.cs" />
     <Compile Include="Assets\enemyScript.cs" />
+    <Compile Include="Assets\ObjectScriptTest.cs" />
+    <Compile Include="Assets\Realistic Hail Set\Demo Scene\Scripts\DemoSceneController.cs" />
+    <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\webCamScript.cs" />
+    <None Include="Assets\Realistic Hail Set\README.txt" />
+    <None Include="Assets\Pixel Font - Tripfive\_README.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Ordinateur/Documents/ARShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,11 +21,12 @@ public class webCamScript : MonoBehaviour
         Input.gyro.enabled = true;
 
 
-        fireButton.onClick.AddListener(OnButtonDown);
+       
 
         WebCamTexture webCameraTexture = new WebCamTexture();
         webCameraPlane.GetComponent<MeshRenderer>().material.mainTexture = webCameraTexture;
         webCameraTexture.Play();
+        fireButton.onClick.AddListener(OnButtonDown);
 
     }
 
@@ -38,7 +38,7 @@ public class webCamScript : MonoBehaviour
         bullet.transform.rotation = Camera.main.transform.rotation;
         bullet.transform.position = Camera.main.transform.position;
         rb.AddForce(Camera.main.transform.forward * 500f);
-        Destroy(bullet, 3);
+        Destroy(bullet, 1);
 
         GetComponent<AudioSource>().Play();
 
@@ -51,5 +51,13 @@ public class webCamScript : MonoBehaviour
     {
         Quaternion cameraRotation = new Quaternion(Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w);
         this.transform.localRotation = cameraRotation;
+
+        if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
+        {
+
+            GameObject ObjectTest = Instantiate(Resources.Load("ObjectTest", typeof(GameObject))) as GameObject;
+
+
+        }
     }
 }

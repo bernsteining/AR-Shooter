@@ -1,0 +1,4 @@
+#Thu Mar 07 16:08:24 CET 2019
+base.0=D\:\\Ordinateur\\Documents\\ARShooter\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
