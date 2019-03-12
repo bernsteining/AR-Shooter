@@ -374,24 +374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950e376084a2acf4ca04ebc617a73830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &405740772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1380943330244520684, guid: 2b3157b048631ce47beda0f88314730b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1380943329309446908}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &405740778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405740772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f157b226488efea4fb53c2be0a36212e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &496754864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1022,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360593170}
   m_CullTransparentMesh: 1
---- !u!1001 &1380943329309446908
+--- !u!1001 &1969881300
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1055,12 +1037,12 @@ PrefabInstance:
     - target: {fileID: 1380943330244520683, guid: 2b3157b048631ce47beda0f88314730b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2775435
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: 1380943330244520683, guid: 2b3157b048631ce47beda0f88314730b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1380943330244520683, guid: 2b3157b048631ce47beda0f88314730b,
         type: 3}
@@ -1107,11 +1089,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1380943330244520686, guid: 2b3157b048631ce47beda0f88314730b,
+    - target: {fileID: 1380943330244520687, guid: 2b3157b048631ce47beda0f88314730b,
         type: 3}
-      propertyPath: m_Enabled
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1380943330244520686, guid: 2b3157b048631ce47beda0f88314730b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b3157b048631ce47beda0f88314730b, type: 3}

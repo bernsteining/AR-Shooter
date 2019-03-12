@@ -23,9 +23,9 @@ public class collisionScript : MonoBehaviour
     {
         Destroy(col.gameObject);
     
-        ScoreManager.score += 1;
+        ScoreManager.score += 1;// add 1 point to the score when a collision happens
 
-        Destroy(gameObject);
+        Destroy(gameObject);//destruction of the object
 
     }
 

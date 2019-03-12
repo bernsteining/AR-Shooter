@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{2AE0EFF5-6842-5A84-27CA-AE077AFBD9C6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\collisionScript.cs" />
     <Compile Include="Assets\enemyScript.cs" />
-    <Compile Include="Assets\ObjectScriptTest.cs" />
     <Compile Include="Assets\Realistic Hail Set\Demo Scene\Scripts\DemoSceneController.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\webCamScript.cs" />

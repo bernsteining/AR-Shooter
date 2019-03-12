@@ -6,6 +6,7 @@ public class webCamScript : MonoBehaviour
 {
     public GameObject webCameraPlane;
     public Button fireButton;
+    private Vector3 throwForce = new Vector3(0, 10, 0);
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +38,7 @@ public class webCamScript : MonoBehaviour
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         bullet.transform.rotation = Camera.main.transform.rotation;
         bullet.transform.position = Camera.main.transform.position;
-        rb.AddForce(Camera.main.transform.forward * 500f);
+        rb.AddForce(Camera.main.transform.forward * 3000f);
         Destroy(bullet, 1);
 
         GetComponent<AudioSource>().Play();
@@ -54,9 +55,11 @@ public class webCamScript : MonoBehaviour
 
         if (GameObject.FindGameObjectsWithTag("Player").Length == 0)
         {
-
+            string i = "lara a des idées bizaresesscdecscelle est tres étrange ?";
+            
             GameObject ObjectTest = Instantiate(Resources.Load("ObjectTest", typeof(GameObject))) as GameObject;
-
+            ObjectTest.GetComponent<Transform>().position.Set(Random.Range(-2,2),-3, 6);
+            ObjectTest.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.Impulse);
 
         }
     }

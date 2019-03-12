@@ -29,5 +29,5 @@ public class enemyScript : MonoBehaviour
             yield return new WaitForSeconds(3.5f);
             transform.eulerAngles += new Vector3(0, 180f, 0);
         }
-    }
+    } 
 }
