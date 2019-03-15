@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{A3F4FC32-BDD8-CC8B-FCCD-DC3C90255E05}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/appleSpawner.cs">
+    <Files>
+      <File FileName="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARVideo.cs" Line="1" Column="1" />
+      <File FileName="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARHitTestExample.cs" Line="41" Column="70" />
+      <File FileName="Assets/appleSpawner.cs" Line="25" Column="92" />
+      <File FileName="Assets/fruit.cs" Line="20" Column="5" />
+      <File FileName="Assets/shootingScript.cs" Line="29" Column="53" />
+      <File FileName="Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARGeneratePlane.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
