@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/tinni/Ar/Ar-Remote
+/Users/tinni/Ar/Version_New
 SceneListBegin?
 Assets/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity
 SceneListEnd?
@@ -143,7 +143,7 @@ e9f2e0bbf55e2dd4c3da63569760821f Assembly-CSharp.dll:.ARReferenceImagesSet
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 d503acfddebcac788dcc909ceb751f71 Assembly-CSharp.dll:.GenerateImageAnchor
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.ConnectToEditor
-547806836d8eeb2c487badfcdd104c0d Assembly-CSharp.dll:.appleSpawner
+db29e43e8a522f47428dc4a923cf66d8 Assembly-CSharp.dll:.appleSpawner
 35fa1eced6c5453850fd77f820d57527 Assembly-CSharp.dll:.UnityEyeManager
 4aac268d7e435f7a65add91aaba819a4 Assembly-CSharp.dll:.CFX_Demo_RandomDir
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -188,7 +188,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d9835af5ce701547af1a2a63c5a25090 Assembly-CSharp.dll:UnityEngine.XR.iOS.PrintBounds
 fc01441e5d5b69ef149be4f22a897c42 Assembly-CSharp.dll:.ColorSliderImage
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
-7b58d5289147e64885c3b6c1be3f19d5 Assembly-CSharp.dll:.shootingScript
+d22fb3fad1c12560cb0d616fd5dcc6d1 Assembly-CSharp.dll:.shootingScript
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 f347306e1327508175f82d7fdaf6a91d Assembly-CSharp.dll:.SetWorldOriginControl
@@ -241,3 +241,7 @@ cc93643c5ba300cda12aa2a6816653f0 Assembly-CSharp.dll:.ARReferenceImage
 3edf99f1f23f40846178ab8f08418322 Assembly-CSharp.dll:.UnityPointCloudExample
 96f116540b6ff5918aa2c65dfa89ec40 Assembly-CSharp.dll:.TongueDetector
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityARCameraNearFar
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Score
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.plusScript
+30f3213a6e218a461fa00e428f22d3eb Assembly-CSharp.dll:.FloatingText
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.floatinTextController
