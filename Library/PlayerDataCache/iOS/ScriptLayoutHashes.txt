@@ -1,8 +1,8 @@
 iOS
 PlayerPath?
-/Users/tinni/Ar/Version_New
+/Users/tinni/Ar/Version_NEWNEW
 SceneListBegin?
-Assets/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity
+Assets/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity
 SceneListEnd?
 8b2d4e06e046ec1dc0a99d91bec0c17a Assembly-CSharp.dll:.WFX_Demo
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
@@ -188,7 +188,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d9835af5ce701547af1a2a63c5a25090 Assembly-CSharp.dll:UnityEngine.XR.iOS.PrintBounds
 fc01441e5d5b69ef149be4f22a897c42 Assembly-CSharp.dll:.ColorSliderImage
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
-d22fb3fad1c12560cb0d616fd5dcc6d1 Assembly-CSharp.dll:.shootingScript
+b0eebdc2080ecd8de650f5f10e8fc9bb Assembly-CSharp.dll:.shootingScript
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 f347306e1327508175f82d7fdaf6a91d Assembly-CSharp.dll:.SetWorldOriginControl
@@ -242,6 +242,9 @@ cc93643c5ba300cda12aa2a6816653f0 Assembly-CSharp.dll:.ARReferenceImage
 96f116540b6ff5918aa2c65dfa89ec40 Assembly-CSharp.dll:.TongueDetector
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityARCameraNearFar
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Score
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.plusScript
 30f3213a6e218a461fa00e428f22d3eb Assembly-CSharp.dll:.FloatingText
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.floatinTextController
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CountDown
+7d4fa8bf62e629e185876c46f1a948f2 Assembly-CSharp.dll:.Game
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShootButton
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.canvasScript

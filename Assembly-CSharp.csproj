@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\canvasScript.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -74,13 +75,15 @@
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
-    <Compile Include="Assets\plusScript.cs" />
     <Compile Include="Assets\scripts\appleSpawner.cs" />
+    <Compile Include="Assets\scripts\CountDown.cs" />
     <Compile Include="Assets\scripts\FloatingText.cs" />
     <Compile Include="Assets\scripts\floatinTextController.cs" />
     <Compile Include="Assets\scripts\fruit.cs" />
+    <Compile Include="Assets\scripts\Game.cs" />
     <Compile Include="Assets\scripts\Score.cs" />
     <Compile Include="Assets\scripts\shootingScript.cs" />
+    <Compile Include="Assets\ShootButton.cs" />
     <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitFaceTrackingRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
     <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\CompressionHelper.cs" />

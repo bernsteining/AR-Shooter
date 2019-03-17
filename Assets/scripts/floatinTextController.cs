@@ -14,10 +14,11 @@ public class floatinTextController : MonoBehaviour
             popupText = Resources.Load<FloatingText>("Models/PopupTextParent");
     }
 
-    public static void CreateFloatingText(string text, Transform location)
+    public static void CreateFloatingText(string text, Transform location, Color color)
     {
         FloatingText instance = Instantiate(Resources.Load<FloatingText>("Models/PopupTextParent"));
         instance.transform.SetParent(canvas.transform, false);
         instance.SetText(text);
+        instance.SetColor(color);
     }
 }

@@ -14,10 +14,8 @@ namespace UnityEngine.XR.iOS
             List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
             if (hitResults.Count > 0) {
                 foreach (var hitResult in hitResults) {
-                    Debug.Log ("Got hit!");
                     m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
                     m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
-                    Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
                     return true;
                 }
             }
@@ -38,7 +36,7 @@ namespace UnityEngine.XR.iOS
         {
 
 #if UNITY_EDITOR   //we will only use this script on the editor side, though there is nothing that would prevent it from working on device
-            if (Input.GetMouseButtonDown(0)&&!IsPointerOverUIObject())
+            if (Input.GetMouseButtonDown(0)&&!IsPointerOverUIObject()&&!appleSpawner.isGame)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hit;
@@ -52,16 +50,16 @@ namespace UnityEngine.XR.iOS
                     {
                         //we're going to get the position from the contact point
                         m_HitTransform.position = hit.point;
-                        Debug.Log(string.Format("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
-
+                        
                         //and the rotation from the transform of the plane collider
                         m_HitTransform.rotation = hit.transform.rotation;
+                        appleSpawner.isGame = true;
                     }
                 }
             }
 
 #else
-            if (Input.touchCount > 0 && m_HitTransform != null&&!IsPointerOverUIObject())
+            if (Input.touchCount > 0 && m_HitTransform != null&&!IsPointerOverUIObject()&&!appleSpawner.isGame)
 			{
 				var touch = Input.GetTouch(0);
 				if (touch.phase == TouchPhase.Began || touch.phase == TouchPhase.Moved)
@@ -87,6 +85,7 @@ namespace UnityEngine.XR.iOS
                     {
                         if (HitTestWithResultType (point, resultType))
                         {
+                            appleSpawner.isGame = true;
                             return;
                         }
                     }

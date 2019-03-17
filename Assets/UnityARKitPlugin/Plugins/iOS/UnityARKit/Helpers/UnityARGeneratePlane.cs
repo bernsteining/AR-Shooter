@@ -14,6 +14,7 @@ namespace UnityEngine.XR.iOS
 			UnityARUtility.InitializePlanePrefab (planePrefab);
 		}
 
+      
         void OnDestroy()
         {
             unityARAnchorManager.Destroy ();

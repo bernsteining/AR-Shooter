@@ -23,8 +23,6 @@ namespace UnityEngine.XR.iOS
 
 				byte[] destination = ms.ToArray();
 
-				Debug.Log(source.Length.ToString() + " vs " + ms.Length.ToString());
-
 				return destination;
 			}
 		}
@@ -44,7 +42,6 @@ namespace UnityEngine.XR.iOS
 
 				byte[] destination = output.ToArray();
 
-				Debug.Log("Decompress Size : " + output.Length);
 
 				return destination;
 			}
