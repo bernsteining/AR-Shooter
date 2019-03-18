@@ -4149,8 +4149,10 @@ public:
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___Shooting_4;
 	// UnityEngine.GameObject Game::UI
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___UI_5;
+	// UnityEngine.GameObject Game::PauseScreen
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___PauseScreen_6;
 	// System.Boolean Game::GameStarted
-	bool ___GameStarted_6;
+	bool ___GameStarted_7;
 
 public:
 	inline static int32_t get_offset_of_Shooting_4() { return static_cast<int32_t>(offsetof(Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1, ___Shooting_4)); }
@@ -4171,12 +4173,21 @@ public:
 		Il2CppCodeGenWriteBarrier((&___UI_5), value);
 	}
 
-	inline static int32_t get_offset_of_GameStarted_6() { return static_cast<int32_t>(offsetof(Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1, ___GameStarted_6)); }
-	inline bool get_GameStarted_6() const { return ___GameStarted_6; }
-	inline bool* get_address_of_GameStarted_6() { return &___GameStarted_6; }
-	inline void set_GameStarted_6(bool value)
+	inline static int32_t get_offset_of_PauseScreen_6() { return static_cast<int32_t>(offsetof(Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1, ___PauseScreen_6)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_PauseScreen_6() const { return ___PauseScreen_6; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_PauseScreen_6() { return &___PauseScreen_6; }
+	inline void set_PauseScreen_6(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
 	{
-		___GameStarted_6 = value;
+		___PauseScreen_6 = value;
+		Il2CppCodeGenWriteBarrier((&___PauseScreen_6), value);
+	}
+
+	inline static int32_t get_offset_of_GameStarted_7() { return static_cast<int32_t>(offsetof(Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1, ___GameStarted_7)); }
+	inline bool get_GameStarted_7() const { return ___GameStarted_7; }
+	inline bool* get_address_of_GameStarted_7() { return &___GameStarted_7; }
+	inline void set_GameStarted_7(bool value)
+	{
+		___GameStarted_7 = value;
 	}
 };
 
@@ -6553,6 +6564,10 @@ public:
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___explosion_5;
 	// UnityEngine.GameObject shootingScript::gameCamera
 	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___gameCamera_6;
+	// System.Single shootingScript::previousTime
+	float ___previousTime_7;
+	// System.Single shootingScript::hitTime
+	float ___hitTime_8;
 
 public:
 	inline static int32_t get_offset_of_canvas_4() { return static_cast<int32_t>(offsetof(shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520, ___canvas_4)); }
@@ -6580,6 +6595,22 @@ public:
 	{
 		___gameCamera_6 = value;
 		Il2CppCodeGenWriteBarrier((&___gameCamera_6), value);
+	}
+
+	inline static int32_t get_offset_of_previousTime_7() { return static_cast<int32_t>(offsetof(shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520, ___previousTime_7)); }
+	inline float get_previousTime_7() const { return ___previousTime_7; }
+	inline float* get_address_of_previousTime_7() { return &___previousTime_7; }
+	inline void set_previousTime_7(float value)
+	{
+		___previousTime_7 = value;
+	}
+
+	inline static int32_t get_offset_of_hitTime_8() { return static_cast<int32_t>(offsetof(shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520, ___hitTime_8)); }
+	inline float get_hitTime_8() const { return ___hitTime_8; }
+	inline float* get_address_of_hitTime_8() { return &___hitTime_8; }
+	inline void set_hitTime_8(float value)
+	{
+		___hitTime_8 = value;
 	}
 };
 
@@ -7378,11 +7409,12 @@ extern const int32_t g_FieldOffsetTable3256[2] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3257 = { sizeof (fruit_tF5057C00E1C80B8235B23CBE022B5D41160E9835), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3258 = { sizeof (Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3258[3] = 
+extern const int32_t g_FieldOffsetTable3258[4] = 
 {
 	Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1::get_offset_of_Shooting_4(),
 	Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1::get_offset_of_UI_5(),
-	Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1::get_offset_of_GameStarted_6(),
+	Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1::get_offset_of_PauseScreen_6(),
+	Game_t9EF095401D7E7EC79CAFA19AAB9B531AE38805E1::get_offset_of_GameStarted_7(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3259 = { sizeof (Score_t72F7EE757BE7D4C7846803B3072753760AB6427F), -1, sizeof(Score_t72F7EE757BE7D4C7846803B3072753760AB6427F_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3259[2] = 
@@ -7391,11 +7423,13 @@ extern const int32_t g_FieldOffsetTable3259[2] =
 	Score_t72F7EE757BE7D4C7846803B3072753760AB6427F_StaticFields::get_offset_of_score_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3260 = { sizeof (shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3260[3] = 
+extern const int32_t g_FieldOffsetTable3260[5] = 
 {
 	shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520::get_offset_of_canvas_4(),
 	shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520::get_offset_of_explosion_5(),
 	shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520::get_offset_of_gameCamera_6(),
+	shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520::get_offset_of_previousTime_7(),
+	shootingScript_t478F90260653D6CE63D8A3F9444A9709CA122520::get_offset_of_hitTime_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3261 = { sizeof (ShootButton_t085F8C04611E8F8ECE625CB7B837AE73DA2FC099), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3262 = { sizeof (UnityARUserAnchorExample_tA0ADFEE995056AD62918E948C7DED4850EECD70B), -1, 0, 0 };

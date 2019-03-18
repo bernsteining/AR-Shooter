@@ -1,6 +1,6 @@
 iOS
 PlayerPath?
-/Users/tinni/Ar/Version_NEWNEW
+/Users/tinni/Ar/Portal
 SceneListBegin?
 Assets/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity
 SceneListEnd?
@@ -134,6 +134,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 281f258aa5168f989b50d54a0bc89f90 Assembly-CSharp.dll:.ARCameraTracker
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Score
 ef4cb41fcd9ad2c83c259d89c5a4723f Assembly-CSharp.dll:.WorldMapManager
 e9f2e0bbf55e2dd4c3da63569760821f Assembly-CSharp.dll:.ARReferenceImagesSet
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -168,6 +169,7 @@ acd6e9b47d9eb18143f0e406b1e68787 Assembly-CSharp.dll:.ParticlePainter
 660deb0ce569359218f0ba85b7ce0e3a Assembly-CSharp.dll:.CFX_LightIntensityFade
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 efee04fd7a8b900e85d693e88d5b5f35 Assembly-CSharp.dll:.ColorPicker
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShootButton
 c896001203784eaf50c0839b7a358365 Assembly-CSharp.dll:.UnityARKitPluginSettings
 7949738ace4f5cbe3f21484e8391d331 Assembly-CSharp.dll:.ObjectScanManager
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -184,11 +186,13 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.canvasScript
 0b8b8492f7e6f1d78148925da7e45b2c Assembly-CSharp.dll:UnityEngine.UI.BoxSlider
 d9835af5ce701547af1a2a63c5a25090 Assembly-CSharp.dll:UnityEngine.XR.iOS.PrintBounds
 fc01441e5d5b69ef149be4f22a897c42 Assembly-CSharp.dll:.ColorSliderImage
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
-b0eebdc2080ecd8de650f5f10e8fc9bb Assembly-CSharp.dll:.shootingScript
+6468bd83d1d4cea03eed87eff6253990 Assembly-CSharp.dll:.shootingScript
+30f3213a6e218a461fa00e428f22d3eb Assembly-CSharp.dll:.FloatingText
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 f347306e1327508175f82d7fdaf6a91d Assembly-CSharp.dll:.SetWorldOriginControl
@@ -218,12 +222,14 @@ e80052be6f994349516ef119502d9146 Assembly-CSharp.dll:.ColorImage
 bfacedbd2d0a7ae7ec6cb5689bcd2e8f Assembly-CSharp.dll:.VideoFormatButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARUserAnchorComponent
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.floatinTextController
 dd7780efe480b95c7be3094f9d1d4270 Assembly-CSharp.dll:.WFX_Demo_Wall
 f1b1d314ca3b7b03e29e12762db58162 Assembly-CSharp.dll:.WFX_BulletHoleDecal
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 fbb893a04802c41965b5af370fe237f2 Assembly-CSharp.dll:UnityEngine.XR.iOS.PickBoundingBox
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BlendshapePrinter
 1b4ceb9d121f213f5a18f8b37359a6a7 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARGeneratePlane
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CountDown
 4bc3701a5a0528400fe2743c92380ca2 Assembly-CSharp.dll:.ColorSlider
 3dfaa02886b930262fc04c4f05a0301a Assembly-CSharp.dll:.ColorPresets
 70d3712bc26215c596eb4fd4d572666f Assembly-CSharp.dll:UnityEngine.XR.iOS.ARKitFaceTrackingRemoteConnection
@@ -232,6 +238,7 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.fruit
 263025083d0a7e8d3b9c0c9ab88a743d Assembly-CSharp.dll:.CFX_SpawnSystem
+62fd0d5f781ca686a50f3ecbd3b424e8 Assembly-CSharp.dll:.Game
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 9e24e0b4d00416469d68b2fa3c9a7a3c Assembly-CSharp.dll:.ReflectionProbeGameObject
 cc93643c5ba300cda12aa2a6816653f0 Assembly-CSharp.dll:.ARReferenceImage
@@ -241,10 +248,3 @@ cc93643c5ba300cda12aa2a6816653f0 Assembly-CSharp.dll:.ARReferenceImage
 3edf99f1f23f40846178ab8f08418322 Assembly-CSharp.dll:.UnityPointCloudExample
 96f116540b6ff5918aa2c65dfa89ec40 Assembly-CSharp.dll:.TongueDetector
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.UnityARCameraNearFar
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Score
-30f3213a6e218a461fa00e428f22d3eb Assembly-CSharp.dll:.FloatingText
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.floatinTextController
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CountDown
-7d4fa8bf62e629e185876c46f1a948f2 Assembly-CSharp.dll:.Game
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShootButton
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.canvasScript

@@ -23412,6 +23412,16 @@ IL_001e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Single UnityEngine.Time::get_time()
+extern "C" IL2CPP_METHOD_ATTR float Time_get_time_m7863349C8845BBA36629A2B3F8EF1C3BEA350FD8 (const RuntimeMethod* method)
+{
+	typedef float (*Time_get_time_m7863349C8845BBA36629A2B3F8EF1C3BEA350FD8_ftn) ();
+	static Time_get_time_m7863349C8845BBA36629A2B3F8EF1C3BEA350FD8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_time_m7863349C8845BBA36629A2B3F8EF1C3BEA350FD8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_time()");
+	float retVal = _il2cpp_icall_func();
+	return retVal;
+}
 // System.Single UnityEngine.Time::get_deltaTime()
 extern "C" IL2CPP_METHOD_ATTR float Time_get_deltaTime_m16F98FC9BA931581236008C288E3B25CBCB7C81E (const RuntimeMethod* method)
 {
@@ -23439,6 +23449,16 @@ extern "C" IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mA0AE7A144C88AE8A
 	static Time_get_unscaledDeltaTime_mA0AE7A144C88AE8AABB42DF17B0F3F0714BA06B2_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Time_get_unscaledDeltaTime_mA0AE7A144C88AE8AABB42DF17B0F3F0714BA06B2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_unscaledDeltaTime()");
+	float retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Single UnityEngine.Time::get_timeScale()
+extern "C" IL2CPP_METHOD_ATTR float Time_get_timeScale_m7E198A5814859A08FD0FFE6DD5F7ED5C907719F8 (const RuntimeMethod* method)
+{
+	typedef float (*Time_get_timeScale_m7E198A5814859A08FD0FFE6DD5F7ED5C907719F8_ftn) ();
+	static Time_get_timeScale_m7E198A5814859A08FD0FFE6DD5F7ED5C907719F8_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_timeScale_m7E198A5814859A08FD0FFE6DD5F7ED5C907719F8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_timeScale()");
 	float retVal = _il2cpp_icall_func();
 	return retVal;
 }

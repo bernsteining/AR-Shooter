@@ -199,7 +199,7 @@ class AudioMixerGroup;
 class AudioMixerGroupController; 
 class AudioMixerSnapshot; 
 class AudioMixerSnapshotController; 
-class Avatar; 
+class Avatar; template <> void RegisterUnityClass<Avatar>(const char*);
 class AvatarMask; 
 class BillboardAsset; 
 class ComputeShader; template <> void RegisterUnityClass<ComputeShader>(const char*);
@@ -284,7 +284,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 81 non stripped classes
+	//Total: 82 non stripped classes
 	//0. Behaviour
 	RegisterUnityClass<Behaviour>("Core");
 	//1. Unity::Component
@@ -437,15 +437,17 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
 	//75. AudioManager
 	RegisterUnityClass<AudioManager>("Audio");
-	//76. BoxCollider
+	//76. Avatar
+	RegisterUnityClass<Avatar>("Animation");
+	//77. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//77. FlareLayer
+	//78. FlareLayer
 	RegisterUnityClass<FlareLayer>("Core");
-	//78. PhysicMaterial
+	//79. PhysicMaterial
 	RegisterUnityClass<PhysicMaterial>("Physics");
-	//79. AnimatorController
+	//80. AnimatorController
 	RegisterUnityClass<AnimatorController>("Animation");
-	//80. SphereCollider
+	//81. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
 
 }
