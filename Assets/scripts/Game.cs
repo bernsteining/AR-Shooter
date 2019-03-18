@@ -13,6 +13,9 @@ public class Game : MonoBehaviour
     [SerializeField]
     GameObject PauseScreen;
 
+    [SerializeField]
+    GameObject Portal;
+
 
     public bool GameStarted = false;
     // Start is called before the first frame update
@@ -21,6 +24,7 @@ public class Game : MonoBehaviour
         Shooting.SetActive(false);
         UI.SetActive(false);
         PauseScreen.SetActive(false);
+        Portal.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +32,11 @@ public class Game : MonoBehaviour
     {
         if (appleSpawner.isGame)
         {
+            GameObject Plane = GameObject.Find("Plane");
+            if (Plane){
+                Destroy(Plane);
+            }
+            Portal.SetActive(true);
             Shooting.SetActive(true);
             UI.SetActive(true);
         }

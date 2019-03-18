@@ -7,11 +7,11 @@ public class appleSpawner : MonoBehaviour
     [SerializeField]
     private GameObject[] appleReference;
     public static bool isGame = false;
+    
     // Start is called before the first frame update
     void Start()
     {
-
-        InvokeRepeating("SpawnFruit", 0.5f, 1f);
+       
     }
 
     // Update is called once per frame
@@ -20,7 +20,10 @@ public class appleSpawner : MonoBehaviour
 
     }
 
-
+    public void startSpawn(float rate){
+        CancelInvoke();
+        InvokeRepeating("SpawnFruit", 0.5f, rate);
+    }
 
     void SpawnFruit()
     {
@@ -32,7 +35,7 @@ public class appleSpawner : MonoBehaviour
 
             GameObject RandomGameObject = Instantiate(appleReference[randomNumber], transform.position, RandomRotation) as GameObject;
 
-            Vector3 throwForce = new Vector3(Random.Range(-0.1f, 0.1f), Random.Range(0.7f, 0.7f), Random.Range(-0.1f, 0.1f));
+            Vector3 throwForce = new Vector3(Random.Range(-0.01f, 0.01f), Random.Range(0.7f, 0.7f), Random.Range(-0.2f, 0.2f));
             RandomGameObject.GetComponent<Rigidbody>().AddForce(throwForce, ForceMode.Impulse);
         }
     }
