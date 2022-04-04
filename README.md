@@ -1,7 +1,6 @@
 # AR Shooter Galaxy
 
-TL;DR : video of the Gameplay
-https://bit.ly/2OqbPyl
+TL;DR : [demo](https://youtu.be/lT-G-6cexD4)
 
 AR Shooter Galaxy is an Augmented Reality game made with Unity and ARKit, available on iOS.
 
